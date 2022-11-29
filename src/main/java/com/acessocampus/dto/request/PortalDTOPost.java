@@ -14,19 +14,15 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class PessoaDTO {
-    
+public class PortalDTOPost {
+
     private Long id;
 
     @NotEmpty
     @Size(min = 2, max = 100)
-    private String nomeCompleto;
+    private String nome;
 
     @Valid
     @NotNull
-    private JornadaDTO jornada;
-
-    @Valid
-    @NotNull
-    private NivelAcessoDTO nivelAcesso;
+    private Long idNivelAcesso;
 }

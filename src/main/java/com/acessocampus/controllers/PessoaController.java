@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.acessocampus.dto.request.PessoaDTO;
+import com.acessocampus.dto.request.PessoaDTOPost;
 import com.acessocampus.exceptions.PessoaNotFoundException;
 import com.acessocampus.services.PessoaService;
 
@@ -46,7 +47,7 @@ public class PessoaController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void create(@RequestBody @Valid PessoaDTO dto) {
+    public void create(@RequestBody @Valid PessoaDTOPost dto) {
         pessoaService.create(dto);
     }
 }

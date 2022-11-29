@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.acessocampus.dto.request.PortalDTO;
+import com.acessocampus.dto.request.PortalDTOPost;
 import com.acessocampus.exceptions.PortalNotFoundException;
 import com.acessocampus.services.PortalService;
 
@@ -46,7 +47,7 @@ public class PortalController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void create(@RequestBody @Valid PortalDTO dto) {
+    public void create(@RequestBody @Valid PortalDTOPost dto) {
         portalService.create(dto);
     }
 }

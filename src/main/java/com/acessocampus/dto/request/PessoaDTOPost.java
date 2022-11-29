@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class PessoaDTO {
+public class PessoaDTOPost {
     
     private Long id;
 
@@ -24,9 +24,9 @@ public class PessoaDTO {
 
     @Valid
     @NotNull
-    private JornadaDTO jornada;
+    private Long idJornada;
 
     @Valid
     @NotNull
-    private NivelAcessoDTO nivelAcesso;
+    private Long idNivelAcesso;
 }
