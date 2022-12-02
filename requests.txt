@@ -1,0 +1,39 @@
+{
+  "horaFim": "11:50",
+  "horaInicio": "07:50",
+  "id": 0,
+  "nome": "AlunoMatutino",
+  "tempoTolerancia": "00:30"
+}
+
+{
+  "id": 0,
+  "nome": "EntradaPrincipal"
+}
+
+{
+  "id": 0,
+  "idJornada": "1",
+  "idNivelAcesso": "1",
+  "nomeCompleto": "Isac de Newton"
+}
+
+{
+  "id": 0,
+  "idNivelAcesso": 1,
+  "nome": "EntradaPrincipal"
+}
+
+{
+  "entradaSaida": "E",
+  "id": 0,
+  "pessoaId": 1,
+  "portalId": 1
+}
+
+
+# API colega
+{
+    "latitude": -27.805045,
+    "longitude": -50.336977
+}

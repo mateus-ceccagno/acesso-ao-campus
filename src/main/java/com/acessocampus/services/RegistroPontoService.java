@@ -16,7 +16,12 @@ import com.acessocampus.repositories.RegistroPontoRepository;
 import com.acessocampus.repositories.PortalRepository;
 import com.acessocampus.repositories.PessoaRepository;
 import static com.acessocampus.worldtimeapi.JsonReader.readJsonFromUrl;
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import org.json.JSONObject;
@@ -59,22 +64,17 @@ public class RegistroPontoService {
     }
 
     public void create(RegistroPontoDTO dto) throws PessoaNotFoundException, PortalNotFoundException, IOException {      
-        JSONObject json = readJsonFromUrl("http://worldtimeapi.org/api/timezone/America/Sao_Paulo");
-        String str = json.getString("datetime");
-        str = str.replace("T"," ");
-        str = str.substring(0, 19);
+        LocalDateTime horaAtual = ConsultarTempoApiExterna();
+        float temperaturaAtual = ConsultarTemperaturaApiColega();
         
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-        LocalDateTime dateTime = LocalDateTime.parse(str, formatter);
-
         RegistroPonto registro = new RegistroPonto();
         
         if(dto.getEntradaSaida().equals("E")){
-            registro.setEntrada(dateTime);
+            registro.setEntrada(horaAtual);
         }
         
         if(dto.getEntradaSaida().equals("S")){
-            registro.setSaida(dateTime);
+            registro.setSaida(horaAtual);
         }
         
         pessoaRepository.findById(dto.getPessoaId()).orElseThrow(() -> new PessoaNotFoundException(dto.getPessoaId()));
@@ -96,5 +96,54 @@ public class RegistroPontoService {
         
         RegistroPonto updatedRegistroPonto = registroPontoMapper.toModel(dto);
         registroPontoRepository.save(updatedRegistroPonto);
+    }
+    
+    
+    /*
+        Consome http://worldtimeapi.org/api/timezone/
+        Parametros: America/Sao_Paulo
+        Retorna: datetime do local informado
+    */
+    private LocalDateTime ConsultarTempoApiExterna () throws IOException {
+        JSONObject json = readJsonFromUrl("http://worldtimeapi.org/api/timezone/America/Sao_Paulo");
+        String str = json.getString("datetime");
+        str = str.replace("T"," ");
+        str = str.substring(0, 19);
+        
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        return LocalDateTime.parse(str, formatter);
+    }
+    
+    /*
+        Consome http://worldtimeapi.org/api/timezone/
+        Parametros: America/Sao_Paulo
+        Retorna: datetime do local informado
+    */
+    private float ConsultarTemperaturaApiColega () throws IOException {
+
+        URL url = new URL ("http://127.0.0.1:5000/externa");
+        HttpURLConnection con = (HttpURLConnection)url.openConnection();
+        con.setRequestMethod("GET");
+        con.setRequestProperty("Content-Type", "application/json");
+        //con.setRequestProperty("Accept", "application/json");
+        con.setDoOutput(true);
+        
+        String jsonInputString = "{latitude: -27.805045, longitude: -50.336977}";
+        try(OutputStream os = con.getOutputStream()) {
+            byte[] input = jsonInputString.getBytes("utf-8");
+            os.write(input, 0, input.length);			
+        }
+        
+        try(BufferedReader br = new BufferedReader(
+          new InputStreamReader(con.getInputStream(), "utf-8"))) {
+            StringBuilder response = new StringBuilder();
+            String responseLine = null;
+            while ((responseLine = br.readLine()) != null) {
+                response.append(responseLine.trim());
+            }
+            System.out.println(response.toString());
+        }
+
+        return 0f;
     }
 }
