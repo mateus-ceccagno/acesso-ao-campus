@@ -9,6 +9,11 @@ import com.acessocampus.entities.RegistroPonto;
 @Mapper(componentModel = "spring")
 public interface RegistroPontoMapper {
     
+    /**
+     *
+     * @param dto
+     * @return
+     */
     RegistroPonto toModel(RegistroPontoDTO dto);
 
     

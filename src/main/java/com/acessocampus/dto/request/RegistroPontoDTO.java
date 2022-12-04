@@ -21,5 +21,5 @@ public class RegistroPontoDTO {
     private Long portalId;
 
     @Pattern(regexp = "^[E|S]{1}$", message ="Valores válidos 'E' ou 'S'")
-    private String  EntradaSaida;
+    private String  EntradaSaida;   
 }

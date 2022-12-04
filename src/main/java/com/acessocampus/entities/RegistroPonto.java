@@ -33,4 +33,6 @@ public class RegistroPonto {
 
     @Column(nullable = false)
     private Long portalId;
+    
+    private float temperatura;
 }

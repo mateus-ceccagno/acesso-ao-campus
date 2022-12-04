@@ -4,6 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -28,4 +29,7 @@ public class RegistroPontoDTOGet {
 
     @Column(nullable = false)
     private Long portalId;
+    
+    @NotNull
+    private float temperatura;
 }
