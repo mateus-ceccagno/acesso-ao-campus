@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+        <div class="header-1">
+            <div id="sobre-nos">
+                <h2>Materiais do Campus </h2>
+            </div> 
+            <div class="material">
+                {%for i in dados%}
+                    <p>Nome: {{ i.nome }}</p>
+                    <p>Tipo: {{ i.tipo }}</p>
+                    <p>Quantidade Total: {{ i.quantidadeTotal }}</p>
+                    <p>Quantidade Disponivel: {{ i.quantidadeDisponivel }}</p>
+                {%endfor%}
+            </div>
+        </div> 
+{% endblock %}

@@ -55,11 +55,4 @@ public class RegistroPontoController {
         throws PessoaNotFoundException, PortalNotFoundException, IOException {
         registroPontoService.create(dto);
     }
-
-    @PutMapping("/{id}")
-    public void update(@PathVariable Long id, @RequestBody @Valid RegistroPontoDTO dto) 
-        throws RegistroPontoNotFoundException, PessoaNotFoundException, PortalNotFoundException {
-        
-        registroPontoService.update(id, dto);
-    }
 }

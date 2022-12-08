@@ -1,0 +1,483 @@
+Rio Branco
+Alecrim (Pão de Açúcar)
+Arapiraca
+Maceió
+Palmeira dos Índios
+Pindoba
+Iranduba
+Itacoatiara
+Jutaí
+Manacapuru
+Manaus
+Parintins
+Calçoene
+Macapá
+Santana
+São Joaquim do Pacuí (Macapá)
+Alagoinhas
+Barreiras
+Camacan
+Camaçari
+Canarana
+Candeias
+Eunápolis
+Feira de Santana
+Ilhéus
+Irará
+Itabuna
+Itarantim
+Jequié
+Juazeiro
+Paripiranga
+Paulo Afonso
+Salvador
+Santo Antônio de Jesus
+Saubara
+Teixeira de Freitas
+Várzea Nova
+Vitória da Conquista
+Assaré
+Carrapateiras (Tauá)
+Caucaia
+Crato
+Fortaleza
+Iguatu
+Irapuã (Crateús)
+Juazeiro do Norte
+Maracanaú
+Maranguape
+Rafael Arruda (Sobral)
+Paracuá (Uruoca)
+Quincoé (Acopiara)
+Quixadá
+Redenção
+São José do Torto (Sobral)
+Sobral
+Brasília
+Aracruz
+Cachoeiro de Itapemirim
+Cariacica
+Colatina
+Guarapari
+Linhares
+São Mateus
+Serra
+Sooretama
+Viana
+Vila Velha
+Vitória
+Acreúna
+Águas Lindas de Goiás
+Anápolis
+Aparecida de Goiânia
+Catalão
+Cidade Ocidental
+Formosa
+Goiânia
+Heitoraí
+Itumbiara
+Jataí
+Luziânia
+Maurilândia
+Novo Gama
+Planaltina
+Rio Verde
+Santo Antônio do Descoberto
+Valparaíso de Goiás
+Caxias
+Guimarães
+Imperatriz
+São Luís
+Timon
+Araguari
+Araxá
+Barbacena
+Belo Horizonte
+Betim
+Caeté
+Caratinga
+Cássia
+Cataguases
+Conselheiro Lafaiete
+Contagem
+Coronel Fabriciano
+Divinópolis
+Funilândia
+Governador Valadares
+Ipatinga
+Itabira
+Itajubá
+Itaúna
+Ituiutaba
+João Monlevade
+Juiz de Fora
+Lagoa da Prata
+Luz
+Montes Claros
+Ouro Preto
+Padre Carvalho
+Pará de Minas
+Passos
+Patos de Minas
+Piedade de Caratinga
+Poços de Caldas
+Ponte Nova
+Ribeirão das Neves
+Sabará
+Santa Luzia
+Santa Maria do Suaçuí
+Santo Antônio do Mucuri (Malacacheta)
+São Bento Abade
+São João Del Rei
+São Miguel do Anta
+São Tiago
+São Tomás de Aquino
+São Vicente (Baldim)
+Sapucaia de Guanhães (Guanhães)
+Sete Lagoas
+Teófilo Otoni
+Timóteo
+Torreões (Juiz de Fora)
+Tuparecê (Medina)
+Uberaba
+Uberlândia
+Vargem Grande do Rio Pardo
+Varginha
+Campo Grande
+Corumbá
+Dourados
+Ponta Porã
+Três Lagoas
+Cuiabá
+Engenho (Acorizal)
+Joselândia (Barão de Melgaço)
+Rondonópolis
+Sinop
+Várzea Grande
+Almoço (Bragança)
+Altamira
+Ananindeua
+Aurora do Pará
+Belém
+Bom Jesus do Tocantins
+Bragança
+Capanema
+Castanhal
+Itaituba
+Marabá
+Mocajuba
+Novo Progresso
+Paragominas
+Redenção
+Santarém
+Tucuruí
+Xinguara
+Bayeux
+Cabedelo
+Campina Grande
+Caraúbas
+João Pessoa
+Patos
+Santa Rita
+Sousa
+Abreu e Lima
+Arcoverde
+Belo Jardim
+Cabanas (Cachoeirinha)
+Cabo de Santo Agostinho
+Cachoeira do Roberto (Afrânio)
+Camaragibe
+Carpina
+Caruaru
+Garanhuns
+Gravatá
+Gravatá do Ibiapina (Taquaritinga do Norte)
+Igarassu
+Jaboatão dos Guararapes
+Lagoa do Ouro
+Olinda
+Paulista
+Petrolina
+Recife
+Riacho Fechado (Tacaimbó)
+Sairé
+Santa Cruz do Capibaribe
+São Lourenço da Mata
+Serra Talhada
+Vitória de Santo Antão
+Alagoinha do Piauí
+Brejo do Piauí
+Isaías Coelho
+Lagoinha do Piauí
+Parnaguá
+Parnaíba
+Santa Filomena
+Teresina
+Almirante Tamandaré
+Apucarana
+Arapongas
+Araucária
+Bela Vista (Guaraniaçu)
+Cafezal do Sul
+Cambé
+Campo Largo
+Campo Mourão
+Carajá (Jesuítas)
+Cascavel
+Castro
+Cianorte
+Colombo
+Cruz Machado
+Curitiba
+Fazenda Rio Grande
+Foz do Iguaçu
+Francisco Beltrão
+Guarapuava
+Guaratuba
+Lapa
+Laranjeiras do Sul
+Londrina
+Maringá
+Matinhos
+Missal
+Paranaguá
+Paranavaí
+Pato Branco
+Pinhais
+Piraí do Sul
+Piraquara
+Ponta Grossa
+Rolândia
+São José dos Pinhais
+São Luiz (Capanema)
+São Pedro do Paraná
+Sarandi
+Telêmaco Borba
+Toledo
+Três Bocas (Toledo)
+Umuarama
+Xambrê
+Angra dos Reis
+Barcelos (São João da Barra)
+Barra do Piraí
+Barra Mansa
+Belford Roxo
+Cabo Frio
+Campos dos Goytacazes
+Duque de Caxias
+Guapimirim
+Itaboraí
+Itaguaí
+Japeri
+Macaé
+Magé
+Mangaratiba
+Maricá
+Mesquita
+Monnerat (Duas Barras)
+Nhunguaçu (Teresópolis)
+Niterói
+Nova Friburgo
+Nova Iguaçu
+Petrópolis
+Queimados
+Resende
+Rio das Ostras
+Rio de Janeiro
+Santo Amaro de Campos (Campos dos Goytacazes)
+São Gonçalo
+São João de Meriti
+Seropédica
+Teresópolis
+Três Rios
+Volta Redonda
+Campo Redondo
+Lagoa Nova
+Mossoró
+Natal
+Parnamirim
+São Gonçalo do Amarante
+Ariquemes
+Cacoal
+Governador Jorge Teixeira
+Ji-Paraná
+Novo Horizonte do Oeste
+Porto Velho
+Boa Vista
+Alegrete
+Alvorada
+Augusto Pestana
+Bagé
+Cachoeira do Sul
+Cachoeirinha
+Canoas
+Caxias do Sul
+Cruz Alta
+Erechim
+Esteio
+Flores da Cunha
+Forninho (Caçapava do Sul)
+Gravataí
+Novo Hamburgo
+Passo Fundo
+Pelotas
+Portão
+Porto Alegre
+Pulador (Passo Fundo)
+Rio Grande
+Rio Pardinho (Santa Cruz do Sul)
+Saltinho (Itatiba do Sul)
+Santa Cruz do Sul
+Santa Maria
+Santana do Livramento
+Santo Ângelo
+São Leopoldo
+Sapucaia do Sul
+Taquari
+Uruguaiana
+Viamão
+Araranguá
+Balneário Camboriú
+Biguaçu
+Blumenau
+Brusque
+Camboriú
+Chapecó
+Criciúma
+Florianópolis
+Itajaí
+Jaraguá do Sul
+Joinville
+Lages
+Navegantes
+Palhoça
+Rio Bonito (Ituporanga)
+Rio do Sul
+Rio Rufino
+São Bento do Sul
+São José
+Tubarão
+Aracaju
+Americana
+Amparo
+Andradina
+Araçatuba
+Araraquara
+Araras
+Arujá
+Assis
+Atibaia
+Avaré
+Barretos
+Barueri
+Bauru
+Bebedouro
+Birigüi
+Botucatu
+Bragança Paulista
+Cabreúva
+Caçapava
+Caieiras
+Cajamar
+Campinas
+Campo Limpo Paulista
+Capão Bonito
+Caraguatatuba
+Carapicuíba
+Catanduva
+Cotia
+Cruzeiro
+Cubatão
+Diadema
+Embu das Artes
+Ferraz de Vasconcelos
+Franca
+Francisco Morato
+Franco da Rocha
+Guaratinguetá
+Guarujá
+Guarulhos
+Hortolândia
+Indaiatuba
+Itaberá
+Itapecerica da Serra
+Itapetininga
+Itapeva
+Itapevi
+Itapira
+Itaquaquecetuba
+Itatiba
+Itu
+Jaboticabal
+Jacareí
+Jales
+Jandira
+Jaú
+Jundiaí
+Leme
+Lençóis Paulista
+Limeira
+Lins
+Lorena
+Marília
+Matão
+Mauá
+Mirante do Paranapanema
+Mococa
+Mogi das Cruzes
+Mogi Guaçu
+Mogi Mirim
+Osasco
+Ourinhos
+Paulínia
+Penápolis
+Pindamonhangaba
+Piracicaba
+Pirassununga
+Poá
+Praia Grande
+Presidente Prudente
+Ribeirão Pires
+Ribeirão Preto
+Rio Claro
+Salto
+Santa Bárbara D'Oeste
+Santa Cruz do Rio Pardo
+Santana de Parnaíba
+Santo André
+Santos
+São Benedito das Areias (Mococa)
+São Bernardo do Campo
+São Caetano do Sul
+São Carlos
+São João da Boa Vista
+São José do Rio Preto
+São José dos Campos
+São Paulo
+São Roque
+São Vicente
+Sertãozinho
+Sorocaba
+Sumaré
+Suzano
+Taboão da Serra
+Taquarivaí
+Tatuí
+Taubaté
+Tupã
+Valinhos
+Valparaíso
+Várzea Paulista
+Votorantim
+Votuporanga
+Araguaína
+Gurupi
+Juarina
+Palmas
+Sampaio
+Jardim ABC de Goiás (Cidade Ocidental)
+Campinas (Plácido de Castro)
+Chile (Ibicuitinga)
+Rincão Comprido (Tunas)
+Linha Glória (Lagoa dos Três Cantos)
+São Tomé (Itapajé)
